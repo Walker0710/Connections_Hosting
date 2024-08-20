@@ -17,7 +17,7 @@ const Home = () => {
                         className='btns'
                         buttonStyle='btn--outline'
                         buttonSize='btn--large'
-                        to='hash/game'
+                        to='/game'
                     >
                         PLAY
                     </Button>

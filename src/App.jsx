@@ -15,11 +15,11 @@ function AppContent() {
     {console.log(location)}
       {!hideNavbarAndFooter && <Navbar />}
       <Routes>
-        <Route path='hash/' exact element={<Home />} />
-        <Route path='hash/game' exact element={<Game />} />
-        <Route path='hash/login' exact element={<Login />} />
-        <Route path='hash/register' exact element={<Register />} />
-        <Route path='hash/profile' exact element={<Profile />} />
+        <Route path='/' exact element={<Home />} />
+        <Route path='/game' exact element={<Game />} />
+        <Route path='/login' exact element={<Login />} />
+        <Route path='/register' exact element={<Register />} />
+        <Route path='/profile' exact element={<Profile />} />
       </Routes>
     </>
   );
