@@ -16,7 +16,7 @@ const Login = () => {
     try {
       const res = await axios.post( BACKEND_URL + '/api/auth/login', { email, password });
       localStorage.setItem('token', res.data.token);
-      navigate('/game');
+      navigate('hash/game');
     } catch (err) {
       setError('Invalid credentials');
     }

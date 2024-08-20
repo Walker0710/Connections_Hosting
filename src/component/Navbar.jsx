@@ -9,26 +9,26 @@ function Navbar() {
 
   const handleLogout = () => {
     localStorage.removeItem('token');
-    navigate('/');
+    navigate('hash/');
   };
 
   return (
     <div className='full-nav'>
       <div className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo'>
+          <Link to='hash/' className='navbar-logo'>
             <img className='logo-yoo' src={Logo} alt="logo" />
             <i class='fab fa-typo3' />
           </Link>
 
           <ul className='nav-menu'>
             <li className='nav-item'>
-              <a href='/' className='nav-links'>Home</a>
+              <a href='hash/' className='nav-links'>Home</a>
             </li>
             {isAuthenticated ? (
               <>
                 <li className='nav-item'>
-                  <a href='/profile' className='nav-links'>Stats</a>
+                  <a href='hash/profile' className='nav-links'>Stats</a>
                 </li>
                 <li className='nav-item'>
                   <a onClick={handleLogout} className='nav-links'>Logout</a>
@@ -37,10 +37,10 @@ function Navbar() {
             ) : (
               <>
                 <li className='nav-item'>
-                  <a href='/register' className='nav-links'>Register</a>
+                  <a href='hash/register' className='nav-links'>Register</a>
                 </li>
                 <li className='nav-item'>
-                  <a href='/login' className='nav-links'>Login</a>
+                  <a href='hash/login' className='nav-links'>Login</a>
                 </li>
               </>
             )}

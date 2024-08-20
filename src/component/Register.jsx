@@ -17,7 +17,7 @@ const Register = () => {
     try {
       const res = await axios.post( BACKEND_URL + '/api/auth/register', { username, email, password });
       localStorage.setItem('token', res.data.token);
-      navigate('/login');
+      navigate('hash/login');
     } catch (err) {
       setError('Registration failed');
     }

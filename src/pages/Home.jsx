@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import './Home.css'
+import './Home.css';
 import {Button} from '../component/Button';
 import Cover from '../assets/Cover2.jpeg';
 
@@ -17,7 +17,7 @@ const Home = () => {
                         className='btns'
                         buttonStyle='btn--outline'
                         buttonSize='btn--large'
-                        to='/game'
+                        to='hash/game'
                     >
                         PLAY
                     </Button>
