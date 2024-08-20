@@ -12,7 +12,7 @@ function AppContent() {
   const hideNavbarAndFooter = location.pathname === '/login' || location.pathname === '/register';
   return (
     <>
-    {console.log(location)}
+      {console.log(location)}
       {!hideNavbarAndFooter && <Navbar />}
       <Routes>
         <Route path='/' exact element={<Home />} />
