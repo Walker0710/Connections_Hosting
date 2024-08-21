@@ -10,7 +10,8 @@ const Home = () => {
         <div className='blog-hero-container'>
             <img className='blog-hero-cover' src={Cover} alt="cover" />
 
-                <h1>Connections</h1>
+                {/* <h1>Connections</h1> */}
+                <h1>Synapses</h1>
                 <p>Match the groups with same traits</p>
                 <div className='hero-btns'>
                     <Button

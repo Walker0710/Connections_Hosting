@@ -154,7 +154,7 @@ const Game = () => {
     return (
         <div className="game-all">
             <div className="game-time-show">
-                <h1>Connections</h1>
+                <h1>Synapses</h1>
                 <p className="date">{currentDate}</p>
             </div>
             <div className='game-grid-all'>

@@ -21,7 +21,7 @@
   
   .blog-hero-container > h1 {
     color: #fff;
-    font-size: 100px;
+    font-size: 120px;
     margin-top: -100px;
     font-family: "Playfair Display", serif;
   }
@@ -33,10 +33,7 @@
     font-family: "Playfair Display", serif;
     margin-top: -50px;
   }
-  
-  /* .hero-matter {
-    margin-top: 20px;
-  } */
+
 
   .hero-btns {
     margin-top: 32px;
